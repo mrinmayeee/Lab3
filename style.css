@@ -1,6 +1,15 @@
+/* formatting for the map's position*/
 .map {
-    position: absolute; 
-    top: 0; 
+    position: absolute;
+    top: 0;
     bottom: 0;
-    width: 100%; 
+    width: 100%;
+}
+
+/* formatting for the popup boxes*/
+.mapboxgl-popup-content {
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+    padding: 1;
+    width: 180px;
+    background-color: rgb(221, 255, 255);
 }
