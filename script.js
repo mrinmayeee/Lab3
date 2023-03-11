@@ -45,7 +45,9 @@ map.on('load', () => {
                     1000, '#0077b6', // colour for distances >= 1000m
                     2000, '#00b4d8', // colour for distances >= 2000m
                     3000, '#90e0ef' // colour for distances >= 3000m
-                ]
+                ],
+                'circle-stroke-width': 1,
+                'circle-stroke-color': '#000',
             },
         });
 });
